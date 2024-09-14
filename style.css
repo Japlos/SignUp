@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(3, 116, 116);
+  background-image: radial-gradient(circle at 85% 1%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 96%,transparent 96%, transparent 100%),radial-gradient(circle at 14% 15%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 1%,transparent 1%, transparent 100%),radial-gradient(circle at 60% 90%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 79% 7%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 78%,transparent 78%, transparent 100%),radial-gradient(circle at 55% 65%, hsla(190,0%,93%,0.05) 0%, hsla(190,0%,93%,0.05) 52%,transparent 52%, transparent 100%),linear-gradient(135deg, rgb(37, 56, 222),rgb(96, 189, 244));
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.home {
+  width: 50%;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px; 
+}
+
+.home-content {
+  max-width: 600px;
+  border: none;
+  text-align: center; 
+  margin: 0 auto;     
+}
+
+.home-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px; 
+}
+
+.home-content p {
+  line-height: 1.5;
+  margin-bottom: 30px; 
+}
+
+.contact-section {
+  padding: 0; 
+}
+
+.contact-section h2 {
+  margin-bottom: 10px; 
+}
+
+.contact-section p {
+  font-size: 16px;
+}
+
+.social-icons {
+  margin-top: 10px; 
+}
+
+.social-icons img {
+  border-radius: 25px;
+  width: 40px; 
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+  vertical-align: middle; 
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.contact-section {
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.contact-section p {
+  text-decoration: none;
+}
+
+.form-box {
+  width: 50%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #050505;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  background: #f0f0f0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-box label {
+  position: absolute;
+  top: -50%;
+  left: 0px;
+  color: #0066ff;
+  transition: 0.3s;
+  font-size: 16px;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #0066ff, #00ccff);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot-link, .switch-text a {
+  color: #0066ff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.switch-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.forgot-link:hover, .switch-text a:hover {
+  text-decoration: underline;
+}
+
+.social-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.social-signup p {
+  margin-right: 10px;
+}
+
+.social-signup a {
+  text-decoration: none;
+  color: #0066ff;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #0066ff;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.social-signup a:hover {
+  background-color: #00ccff;
+}
+
+.social-signup i {
+  margin-right: 5px;
+}
